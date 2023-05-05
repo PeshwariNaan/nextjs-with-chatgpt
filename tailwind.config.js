@@ -15,4 +15,16 @@ module.exports = {
     },
   },
   plugins: [],
-}
+  safelist: [
+    'hover:border-blue-500',
+    'hover:border-red-500',
+    'hover:border-green-500',
+    'hover:border-yellow-500',
+    'hover:border-purple-500',
+    'hover:border-pink-500',
+    'hover:border-indigo-500',
+    'hover:border-gray-500',
+    'hover:border-black-500',
+    'hover:border-white-500',
+  ],
+};
